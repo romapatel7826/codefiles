@@ -1,0 +1,13 @@
+a = int(input("enter first num: "))
+b = int(input("enter sec num; "))
+n = int(input("num od element:"))
+
+print(a, b, end="")
+
+while n-2:
+    c=a+b
+    a=b
+    b=c
+    print(c)
+    n = n-1
+
